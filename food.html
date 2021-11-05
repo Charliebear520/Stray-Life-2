@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRAY LIFE</title>
+    <link rel="icon" href="img\icon2.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fstyle.css">
+</head>
+
+<body>
+    <!-- html -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="img\icon2.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+        </div>
+    </nav>
+
+    <!-- html-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img\SL-LOGO加文字.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">關於我們</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">我要領養</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">我要送養</a></li>
+                <li class="nav-item"><a class="nav-link" href="food.html">寵物商城</a></li>
+                <li class="nav-item"><a class="nav-link" href="cat.html">浪浪大小事</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">登入/註冊</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 回到TOP的BUTTON -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+    <div class="banner" id="section0">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <!-- 輪播內容 -->
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="img\保養粉.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item active">
+                    <img src="img\罐頭.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img\貓咪餐包.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <!-- 左右箭頭 -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="product" id="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title text-center">毛拔麻好評推薦</p>
+                    <!-- <hr class="title_line"> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card1">
+                        <img src="img\扭扭.jpeg" class="card1">
+                        <p class="product_name text-left">扭扭/<br>自從在STRAY LIFE買過汪喵挑嘴罐後，扭扭一試成主顧，終於！終結了媽媽找不到適合又安心的罐罐噩夢！</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card card2">
+                        <img src="img\來福.jpeg">
+                        <p class="product_name text-left">來福/<br>來福食量大很難全濕食，但又怕營養不夠，所以偶爾會在來福的飼料裡面拌汪喵罐罐，營養均衡，長得更帥了！</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card card3">
+                        <img src="img\麻糬.jpeg">
+                        <p class="product_name text-left">麻糬/<br>為了讓麻糬轉吃生食而先選擇凍乾，結果嗜口性超好，不攝取澱粉飼料後，麻糬體態變得精實了</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ">
+                    <div class="card card4">
+                        <img src="img\QQ.jpg">
+                        <p class="product_name text-left">QQ/<br>臘腸很容易過敏濕疹，嘗試了益生菌搭配生食之後，皮膚眞的越來越好了，天氣潮濕都不會再犯濕疹了！</p>
+                    </div>
+                    <div class="big">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="section2">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title text-center"></p>
+                    <!-- <hr class="title_line"> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="img\汪喵.jpg" class="lo">
+                </div>
+                <div class="col-md-12 text-center">
+                    <img src="img\鮮肉主食罐.jpg" class="lo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="section3">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title text-center"></p>
+                    <!-- <hr class="title_line"> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="img\流浪貓狗助糧.png" class="lo">
+                </div>
+                <div class="col-md-4 story">
+                    <span>我們的捐助計畫</span>
+                    <br>
+                    <p>
+                        我們致力於流浪貓狗的救援計畫，所以只要在STRAY LIFE上購物，我們就會幫你捐贈對應的糧食給需要的收容所，同時也會給您對應的回饋金！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <span>地址：貓星球肉泥村貓奴東路127巷56號 ｜ 聯絡電話：03-3525566</span>
+        </div>
+    </footer>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>

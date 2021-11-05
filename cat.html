@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRAY LIFE</title>
+    <link rel="icon" href="img\icon2.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cstyle.css">
+</head>
+
+<body>
+    <!-- html -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img\SL-LOGO加文字.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+        </div>
+    </nav>
+
+    <!-- html-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="img\SL-LOGO加文字.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">關於我們</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">我要領養</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">我要送養</a></li>
+                <li class="nav-item"><a class="nav-link" href="food.html">寵物商城</a></li>
+                <li class="nav-item"><a class="nav-link" href="cat.html">浪浪大小事</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">登入/註冊</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 回到TOP的BUTTON -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <div class="about" id="section1">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title text-center"></p>
+                    <hr class="title_line">
+                </div>
+            </div>
+            <div class="video">
+                <iframe class="video-size" width="560" height="315" src="https://www.youtube.com/embed/ViGCXUwY1Es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video-size" width="560" height="315" src="https://www.youtube.com/embed/OS2rmKZVR3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video-size" width="560" height="315" src="https://www.youtube.com/embed/Hpp3iIt5lvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video-size" width="560" height="315" src="https://www.youtube.com/embed/J8i2FleIbG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center" id="text">
+                    <br>
+                    <p> 台灣動物緊急救援小組於民國八十四年成立於高雄市，是當時全台灣第一個仿效歐美專為傷病受虐動物提供緊急救援與醫療的民間組織；組織開始之初，只有少數幾名志工自發性參與流浪貓狗救援，並自掏腰包向國外進口專業的動物救援器材。逐漸地，因為理念與行動受到大眾肯定，越來越多的支持者陸續加入捐助行列，投入動物救援任務。二十多年來，台灣動物緊急救援小組完成過無數次救援任務，拯救超過五千隻傷病流浪貓狗的生命；除了第一線的營救任務之外，動物救援小組也與多個動物醫療機構配合，組成完整的獸醫團隊，並與許多資深醫助及志工配合，提供流浪犬貓與居家寵物相同甚至更高等級的醫療與身心照護。
+                    </p>
+                </div>
+                <div class="col-md-2 text-center"></div>
+                <div class="col-md-6 text-center">
+                    <img src="img\ARTT.jpg" class="lo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="section2">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title text-center"></p>
+                    <hr class="title_line">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="img/shop2.jpg" class="lo">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="about" id="section3">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title text-center"></p>
+                    <hr class="title_line">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center" id="text">
+                    <p>短短沒有很多適合拍照打卡的地方， 沒有乾燥花或小道具等等， 老闆一直希望這間店給大家像回到家的感覺 是有溫度的吧我想， 這個連結來自於貓和人的相處， 像店裡每個人對短短這間店的向心力一樣。 關於浪浪們救援及中途甚至照護的情況， 很多時候真的心有餘而力不足， 但每當有力能出的時候， 也會努力發揮到最大值， 這是我們能做的努力， 也是該做的使命和責任吧。 領養不棄養，每個貓孩都是生命， 尊重生命的可貴，讓愛延續下去。
+                    </p>
+                </div>
+                <div class="col-md-2 text-center"></div>
+                <div class="col-md-6 text-center">
+                    <img src="img/shop3.png" class="lo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product" id="section4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title text-center">前往浪浪</p>
+                    <hr class="title_line">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card1">
+                        <a class="name" target="_blank" href='https://www.facebook.com/pages/category/Coffee-Shop/%E7%9F%AD%E7%9F%AD_DuanDuan_%E8%B2%93%E5%92%AA%E4%B8%AD%E9%80%94%E4%B9%8B%E5%AE%B6%E5%92%96%E5%95%A1%E5%BB%B3-928047737540234/'>
+                            <img src="img/other_store01.png" class="store">
+                            <div class="name">短短</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card card2">
+                        <a class="name" target="_blank" href='http://www.langlangdontcry.com.tw/'>
+                            <img src="img/other_store03.png" class="store">
+                            <div class="name">浪浪別哭</div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card card3">
+                        <a class="name" target="_blank " href="https://www.facebook.com/joursbonbon/">
+                            <img src="img/other_store02.png" alt="" class="store">
+                            <div class="name">日日好食光</div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 ">
+                    <div class="card card4">
+                        <a class="name" target="_blank " href="https://www.savedogs.org/index.php">
+                            <img src="img\ARTTLOGO.png" alt="" class="store">
+                            <div class="name">ARTT</div>
+                        </a>
+                    </div>
+
+                    <div class="big">
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <span>地址：貓星球肉泥村貓奴東路127巷56號 ｜ 聯絡電話：03-3525566</span>
+        </div>
+    </footer>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>
